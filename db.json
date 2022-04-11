@@ -1,0 +1,29 @@
+{
+	"impostos": [
+		{ "id": 1, "nome": "IR", "percentual": 0.25 },
+		{ "id": 2, "nome": "INSS", "percentual": 0.14 },
+		{ "id": 3, "nome": "ICMS", "percentual": 0.05 }
+	],
+	"recolhimento_impostos": [
+		{ "id": 1, "imposto": 1, "data": "2022/04/01", "valor_base": 1000.00, "valor_recolher": 10.00 },
+		{ "id": 2, "imposto": 2, "data": "2022/04/01", "valor_base": 1000.00, "valor_recolher": 10.00 },
+		{ "id": 3, "imposto": 3, "data": "2022/04/01", "valor_base": 1000.00, "valor_recolher": 10.00 }
+	],
+	"transportadores": [
+		{ "id": 1, "nome": "Zé das Coves Transportes LTDA.",		"preco_Kg_Km": 0.50, "email": "ze@zecoves.com.br" },
+		{ "id": 2, "nome": "João da Padaria Transportes LTDA.",		"preco_Kg_Km": 0.55, "email": "jao@padtransp.com.br" },
+		{ "id": 3, "nome": "Paulinho das Candongas Transportes LTDA.",	"preco_Kg_Km": 0.60, "email": "paulo@transpaulo.com.br" }
+	],
+	"transportador_area": [
+		{ "transportador": 1, "area": 1, "preco_Kg_Km": 0.50 },
+		{ "transportador": 1, "area": 2, "preco_Kg_Km": 0.55 },
+		{ "transportador": 2, "area": 1, "preco_Kg_Km": 0.50 },
+		{ "transportador": 2, "area": 2, "preco_Kg_Km": 0.55 },
+		{ "transportador": 2, "area": 3, "preco_Kg_Km": 0.40 },
+		{ "transportador": 3, "area": 4, "preco_Kg_Km": 0.70 }
+	],
+	"sobrou2": [
+	]
+}
+
+
